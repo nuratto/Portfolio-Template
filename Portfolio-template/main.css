@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+*::selection {
+    background-color: white;
+    color: black;
+}
+
+.section1 {
+    mix-blend-mode: hard-light;
+    height: 80vh;
+    color: white;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.logo {
+    margin-left: 30px;
+    font-size: 30px
+}
+
+.main li{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.main li a {
+    color: white;
+
+}
+
+.doe{
+    font-weight: 200;
+}
+
+.rightnav {
+    float: right;
+    margin-right: 20px;
+}
+
+.intro {
+    margin: 13vh 2rem;
+    mix-blend-mode: hard-light;
+}
+
+.intro h4 {
+    font-size: 120px;
+    font-weight: 500;
+}
+
+.intro p {
+    font-size: 25px;
+}
+
+.contactbtn{
+    background-color: transparent;
+    padding: 10px 30px;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    border: 3px solid white;
+    transform: scale(.9);
+    transition: .3s;
+    cursor: pointer;
+    width: 80px;
+}
+
+.contactbtn a {
+    color: white;
+}
+
+.contactbtn:hover {
+    transform: scale(1);
+    border-radius: 30px;
+}
+
+.section2 {
+    background-image:url("img/wave-haikei\ \(4\).svg") ;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
+}
+
+.info{
+    color: black;
+    padding-top: 40vh;
+    margin-left: 40px;
+}
+
+.info h4 {
+    font-size: 120px;
+    font-weight: 500;
+}
+
+.info h5 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.info p {
+    font-size: 25px;
+}
+
+.meimg {
+    border: 2px black solid;
+    width: 40vh;
+    height: 600px;
+    position: absolute;
+    right: 100px;
+    margin-top: -32vh;
+    border-radius: 10px;
+    transform: scale(.9);
+    transition: .3s;
+}
+
+.meimg:hover {
+    transform: scale(1);
+}
+
+.section3 {
+    background-image:url("img/wave-haikei\ \(6\).svg");
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+}
+
+.section3 h4 {
+    padding-top: 25vh;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.p-grid {
+    padding: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.projects {
+    text-align: center;
+    border-radius: 10px;
+    width: 430px;
+    background-color: white;
+    color: black;
+    padding: 50px;
+    transform: scale(.9);
+    transition: .3s;
+}
+
+.t1:hover {
+    transform: scale(1);
+}
+
+.t2:hover{
+    transform: scale(1);
+}
+
+.projects h5 {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(62, 136, 219);
+}
+
+.projects p {
+    font-size: 20px;
+}
+
+.projects a {
+    font-size: 20px;
+    color: rgb(62, 136, 219);
+}
+
+.section4 {
+    background: url("img/wave-haikei\ \(7\).svg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    color: black;
+}
+
+.contact {
+    padding: 100px;
+    text-align: center;
+}
+
+.contact h4 {
+    padding-top: 20vh;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.contact p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.global-input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: transparent;
+    border-color: black;
+    margin: 15px;
+    font-size: 18px;
+}
+
+.textbox {
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+}
+
+.footer {
+    color: black;
+}
+
+.footer p {
+    font-size: 15px;
+    font-family: 'Caprasimo', cursive;
+}
